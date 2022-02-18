@@ -1,0 +1,11 @@
+body {
+  background-color: #696969;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+<!-- HTML !-->
+<button class="button-1" role="button">Button 1</button>
+<!-- HTML !-->
+<button class="button-52" role="button">Button 52</button>

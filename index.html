@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Rock Paper Scissors Match</title>
+  </head>
+  <body>
+    <div>
+      <button onclick="typeWriter()">Click me</button>
+      <h1 id="demo"></h1>
+      <a href="single-player.html" target="_blank">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/141/141073.png" width="500" alt="Player VS Player" class="center">
+        <script>
+        var i = 0;
+        var txt = 'when you are ready click the console to begin⬇️'; /* The text */
+        var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+          function typeWriter() {
+          if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+          }
+          }
+        </script>
+      </a>
+    </<div>
+  </body>
+</html>
